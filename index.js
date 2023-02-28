@@ -15,28 +15,28 @@ netlifyIdentity.on('logout', () => {
         
 });
 
-const app = angular.module('groupPage', ['ngRoute', 'ngSanitize']);
+// const app = angular.module('groupPage', ['ngRoute', 'ngSanitize']);
 
 
-app.config(function ($routeProvider) {
-    $routeProvider
-        // .when("/", {
-        //     templateUrl: 'landing.html'
-        // })
-        // .when("/home", {
-        //     templateUrl: 'landing.html'
-        // })
-        // .when("/about", {
-        //     templateUrl: 'about.html'
-        // })
-        // .when("/samplePost", {
-        //     templateUrl: 'sample-post.html'
-        // })
-        // .when("/contact", {
-        //     templateUrl: 'contact.html'
-        // });
+// app.config(function ($routeProvider) {
+//     $routeProvider
+//         // .when("/", {
+//         //     templateUrl: 'landing.html'
+//         // })
+//         // .when("/home", {
+//         //     templateUrl: 'landing.html'
+//         // })
+//         // .when("/about", {
+//         //     templateUrl: 'about.html'
+//         // })
+//         // .when("/samplePost", {
+//         //     templateUrl: 'sample-post.html'
+//         // })
+//         // .when("/contact", {
+//         //     templateUrl: 'contact.html'
+//         // });
 
-});
+// });
 
-app.controller("groupCtrl", function ($scope) {
-});
+// app.controller("groupCtrl", function ($scope) {
+// });
