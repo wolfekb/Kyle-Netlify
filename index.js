@@ -10,7 +10,7 @@ netlifyIdentity.on('login', () => {
 });
 
 netlifyIdentity.on('logout', () => {
-    netlifyIdentitiy.close();
+    netlifyIdentity.close();
     window.location.replace('/')
 ;
 });
