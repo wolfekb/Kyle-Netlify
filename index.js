@@ -12,7 +12,7 @@ app.config(function ($routeProvider) {
         .when("/about", {
             templateUrl: 'about.html'
         })
-        .when("/samplePost", {
+        .when("/sample", {
             templateUrl: 'sample-post.html'
         })
         .when("/contact", {
