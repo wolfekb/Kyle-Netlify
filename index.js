@@ -29,14 +29,14 @@ app.controller("groupCtrl", function ($scope) {
     
     netlifyIdentity.on('login', () => {
         if (initUser == null) {
-            window.location.replace('#!landing')
+            window.location.replace('/home')
         }
         netlifyIdentity.close();
     });
     
     netlifyIdentity.on('logout', () => {
         netlifyIdentity.close();
-        window.location.replace('#!')
+        window.location.replace('/')
             
     });
 });
