@@ -1,4 +1,4 @@
-const app = angular.module('groupPage', ['ngRoute', 'ngSanitize']);
+const app = angular.module('groupPage', ['ngRoute']);
 
 
 app.config(function ($routeProvider) {
