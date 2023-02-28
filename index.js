@@ -4,7 +4,7 @@ const app = angular.module('groupPage', ['ngRoute']);
 app.config(function ($routeProvider) {
     $routeProvider
         .when("/", {
-            templateUrl: 'landing.html'
+            templateUrl: 'login.html'
         })
         .when("/home", {
             templateUrl: 'landing.html'
@@ -29,7 +29,7 @@ app.controller("groupCtrl", function ($scope) {
     
     netlifyIdentity.on('login', () => {
         if (initUser == null) {
-            window.location.replace('/home')
+            window.location.replace('#!landing')
         }
         netlifyIdentity.close();
     });
