@@ -29,7 +29,7 @@ app.controller("groupCtrl", function ($scope) {
     
     netlifyIdentity.on('login', () => {
         if (initUser == null) {
-            window.location.replace('/landing')
+            window.location.replace('#!landing')
         }
         netlifyIdentity.close();
     });
