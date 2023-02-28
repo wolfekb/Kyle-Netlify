@@ -1,4 +1,6 @@
-
+header {
+    color: white;
+}
 .button {
     display: flex;
     justify-content: flex-end;
