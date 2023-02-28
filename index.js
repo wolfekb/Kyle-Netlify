@@ -1,5 +1,3 @@
-
-
 const app = angular.module('groupPage', ['ngRoute', 'ngSanitize']);
 
 

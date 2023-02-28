@@ -27,9 +27,44 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
-<body
-        <div data-netlify-identity-menu></div>
-        <main ng-view></main>
+<body ng-app="groupPage" ng-controller="groupCtrl">
+    <div data-netlify-identity-menu></div>
+    <main ng-view></main>
+    <header class="headerImg pb-4">
+        <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <div>
+                    <p>Clean Blog</p>
+                </div>
+                <div>
+                    <ul class="navbar-nav py-4 py-lg-0">
+                        <li class="px-lg-3 py-3 py-lg-4 nav-item">
+                            <a class="nav-link liHover" href="#!">Home<span></span></a>
+                        </li>
+                        <li class="px-lg-3 py-3 py-lg-4 nav-item">
+                            <a class="nav-link liHover" href="#!about">About<span></span></a>
+                        </li>
+                        <li class="px-lg-3 py-3 py-lg-4 nav-item">
+                            <a class="nav-link liHover" href="#!sample-post">Sample Post<span></span></a>
+                        </li>
+                        <li class="px-lg-3 py-3 py-lg-4 nav-item">
+                            <a class="nav-link liHover" href="#!contact">Contact<span></span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container position-relative px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center py-lg-4">
+                <div>
+                    <div>
+                        <h1 class="font-weight-bold">Clean Blog</h1>
+                        <span>A Blog Theme by Start Bootsrap</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 </body>
 
 </html>
