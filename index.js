@@ -11,8 +11,7 @@ netlifyIdentity.on('login', () => {
 
 netlifyIdentity.on('logout', () => {
     netlifyIdentity.close();
-    window.location.replace('/')
-;
+    window.location.replace('/')     
 });
 
 const app = angular.module('groupPage', ['ngRoute', 'ngSanitize']);
@@ -36,6 +35,7 @@ app.config(function ($routeProvider) {
             templateUrl: 'contact.html'
         });
 
-})
-    .controller("groupCtrl", function ($scope) {
-    });
+});
+
+app.controller("groupCtrl", function ($scope) {
+});
