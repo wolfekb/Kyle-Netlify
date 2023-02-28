@@ -20,6 +20,8 @@
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/89df28aa7e.js" crossorigin="anonymous"></script>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
     <script type="text/javascript" src="index.js"></script>
 </head>
 
@@ -51,6 +53,7 @@
             </div>
         </nav>
         <div data-netlify-identity-menu></div>
+        <main ng-view></main>
 
         <div class="container position-relative px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5 justify-content-center py-lg-4">
