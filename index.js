@@ -4,7 +4,7 @@ const app = angular.module('groupPage', ['ngRoute']);
 app.config(function ($routeProvider) {
     $routeProvider
         .when("/", {
-            templateUrl: 'landing.html'
+            templateUrl: 'index.html'
         })
         .when("/home", {
             templateUrl: 'landing.html'
